@@ -1,7 +1,11 @@
+#photoBackground{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/18/22/58/stars-1837306_1280.jpg");
+    padding: 30px;
+}
 #accueil{
-    background-color: aqua;
     width: 20%;
     margin: auto;
+    color: #fff;
 }
 
 #photo{
@@ -12,4 +16,19 @@
 
 #TexteAccueil{
     justify-content: center;
+    text-align: center;
 }
+
+#TexteAccueil h1{
+    font-size: 24px;
+}
+
+#TexteAccueil h2{
+    font-size: 18px;
+}
+
+#Icône{
+    display: flex;
+    justify-content: space-around;
+}
+
