@@ -13,8 +13,12 @@ header {
 }
 
 #photoBackground {
-  background-image: url("https://cdn.pixabay.com/photo/2016/11/18/22/58/stars-1837306_1280.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
   padding: 30px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #accueil {
@@ -42,9 +46,10 @@ header {
   font-size: 18px;
 }
 
-#Icône {
+#Icône :hover {
   display: flex;
   justify-content: space-around;
+  color: white;
 }
 
 #FirstPart {
@@ -52,9 +57,13 @@ header {
 }
 
 #Image_First_Part {
-  background-image: url("https://cdn.pixabay.com/photo/2017/02/19/15/28/sunset-2080072_1280.jpg");
-  width: 755px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
+  width: 928px;
   height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #SecondPart {
@@ -64,9 +73,13 @@ header {
 }
 
 #Image_Second_Part {
-  background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
-  width: 755px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
+  width: 786px;
   height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #ThirdPart {
@@ -74,10 +87,14 @@ header {
 }
 
 #Image_Third_part {
-  background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
-  width: 755px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
+  width: 1048px;
   height: 500px;
   margin-left: 140px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #LastPart {
@@ -87,9 +104,49 @@ header {
 }
 
 #Image_Last_part {
-  background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
-  width: 755px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
+  width: 788px;
   height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#texte_image {
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  position: relative;
+  top: 200px;
+  margin-left: 150px;
+  margin: 150px;
+}
+
+#part h1 {
+  font-size: 36px;
+}
+
+#part h2 {
+  font-size: 24px;
+}
+
+#part p {
+  font-size: 18px;
+}
+
+#part li {
+  font-size: 20px;
+}
+
+.border_bottom {
+  border-bottom: 2px solid black;
+}
+
+.texte_centre {
+  padding: 30px;
+  margin: 30px;
 }
 
 footer {
@@ -97,7 +154,8 @@ footer {
   background-color: black;
   color: white;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
