@@ -46,10 +46,11 @@ header {
   font-size: 18px;
 }
 
-#Icône :hover {
+#Icône {
   display: flex;
   justify-content: space-around;
   color: white;
+  color: link white;
 }
 
 #FirstPart {
@@ -147,6 +148,10 @@ header {
 .texte_centre {
   padding: 30px;
   margin: 30px;
+}
+
+* a:hover {
+  color: yellow;
 }
 
 footer {
