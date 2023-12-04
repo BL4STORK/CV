@@ -12,6 +12,10 @@ header {
   font-size: 10px;
 }
 
+header h1:hover {
+  text-decoration: underline;
+}
+
 #photoBackground {
   background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
   padding: 30px;
