@@ -8,7 +8,7 @@
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 10px;
 }
 
@@ -50,11 +50,14 @@ header h1:hover {
   font-size: 18px;
 }
 
+* a {
+  color: #fff;
+}
+
 #Icône {
   display: flex;
   justify-content: space-around;
-  color: white;
-  color: link white;
+  font-size: 24px;
 }
 
 #FirstPart {
@@ -124,7 +127,7 @@ header h1:hover {
   border: 2px solid white;
   background-color: black;
   position: relative;
-  top: 200px;
+  top: 100px;
   margin-left: 150px;
   margin: 150px;
 }
@@ -156,6 +159,15 @@ header h1:hover {
 
 * a:hover {
   color: yellow;
+  transform: scale(150%);
+  transition: 500ms;
+}
+
+#texte_image:hover {
+  color: yellow;
+  border-color: yellow;
+  transform: rotate(360deg);
+  transition: 2s;
 }
 
 footer {
