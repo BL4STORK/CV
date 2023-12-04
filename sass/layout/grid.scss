@@ -32,3 +32,48 @@
     justify-content: space-around;
 }
 
+#FirstPart{
+    display: flex;
+}
+
+#Image_First_Part{
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/19/15/28/sunset-2080072_1280.jpg");
+    width: 755px;
+    height: 500px;
+}
+
+#SecondPart{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#Image_Second_Part{
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
+    width: 755px;
+    height: 500px;
+}
+
+#ThirdPart{
+    display: flex;
+}
+
+#Image_Third_part{
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
+    width: 755px;
+    height: 500px;
+    margin-left: 140px;
+}
+
+#LastPart{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#Image_Last_part{
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
+    width: 755px;
+    height: 500px;
+}
+
