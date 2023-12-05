@@ -4,11 +4,13 @@ body{
 }
 header {
     ul{
+        height: 3rem;
         list-style: none;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         font-size: 10px;
+        align-items: center;
     }
     a{
         color: black;
