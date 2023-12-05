@@ -3,6 +3,12 @@
     padding: 0;
     border: 0;
 }
+
+img{
+    width: 12%;
+    border-radius: 100%;
+}
+
 #photoBackground{
     background-image: url("https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_1280.jpg");
     padding: 30px;
@@ -66,7 +72,77 @@
     text-align: center;
 }
 
-#Image_First_Part{
+#texte_exp_pro{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 1%;
+    line-height: 2rem;
+    color: black;
+}
+
+#part_exp_pro{
+    display: flex;
+    justify-content: flex-start;
+    background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+
+#texte_etudes{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 1%;
+    line-height: 2rem;
+    color: black;
+}
+
+#part_etudes{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+
+#texte_compétences{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 1%;
+    line-height: 2rem;
+    color: black;
+}
+
+#part_compétences{
+    display: flex;
+    justify-content: flex-start;
+    background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+
+#texte_centre_dintêret{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 1%;
+    line-height: 2rem;
+    color: black;
+}
+
+#part_centre_dintêret{
+    display: flex;
+    justify-content: flex-end;
     background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -74,27 +150,8 @@
     background-size: cover;
 }
 
-#Image_Second_Part{
-    background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#Image_Third_part{
-    background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#Image_Last_part{
-    background-image: url("https://cdn.pixabay.com/photo/2023/10/27/15/51/italy-8345688_1280.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.texte{
+    padding: 2rem;
 }
 
 #texte_image{
@@ -103,15 +160,15 @@
     border: 3px solid white;
     background-color: black;
     position: relative;
-    top: 100px;
-    margin-left: 150px;
-    margin: 150px;
     text-decoration: none;
+    top: 7rem;
+    right: 17rem;
 }
 
 #part h1{
     font-size: 36px;
 }
+
 
 #part h2{
     font-size: 24px;
@@ -125,8 +182,17 @@
     font-size: 20px;
 }
 
-.border_bottom{
+.Title_h1{
     border-bottom: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+.Title_h2{
+    margin-left: 2rem;
+}
+
+.Title_h3{
+    margin-left: 4rem;
 }
 
 .texte_centre{
@@ -147,3 +213,12 @@ i:hover{
     transition: 2s;
 
 }
+
+#part_centre_dintêret a{
+    text-decoration: none;
+}
+
+
+
+
+

@@ -1,4 +1,54 @@
+@media all and (max-width : 426px){
+    #texte_exp_pro {
+        width: 100%;
+        height: auto;
+    }
 
-@media all and (max-width:425px){
-    
+    #texte_etudes {
+        width: 100%;
+        height: auto;
+    }
+
+    #texte_compétences {
+        width: 100%;
+        height: auto;
+    }
+
+    #texte_centre_dintêret {
+        width: 100%;
+        height: auto;
+    }
+
+    #part_exp_pro{
+        flex-direction: column;
+    }
+
+    #part_etudes{
+        flex-direction: column;
+    }
+
+    #part_compétences{
+        flex-direction: column;
+    }
+
+    #part_centre_dintêret{
+        flex-direction: column;
+    }
+
+    #texte_image{
+        position: relative;
+        left: 0.001rem;
+        top: 13rem;
+
+    }
+    #photo{
+        width: 100%;
+        height: auto;
+    }
+
+    #TexteAccueil h1{
+        position: relative;
+        width: 7rem;
+        right: 1rem;
+    }
 }
