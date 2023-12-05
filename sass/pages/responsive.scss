@@ -4,17 +4,29 @@
         flex-direction: column;
     }
     main{
+        #accueil{
+            #photo{
+                flex-direction: column;
+            }
+            #TexteAccueil{
+                flex-direction: column;
+            }
+            #Icône{
+                flex-direction: column;
+            }
+        }
         #part{
             section{
-                div{
-                    flex-direction: column;
+                #Firstpart{
+                    .texte_centre{
+                        flex-direction: column;
+                    }
+                    #Image_First_Part{
+                        flex-direction: column;
+                    }
                 }
             }
-            
         }
-        
-    }
-    footer{
-        flex-direction: column;
+
     }
 }
