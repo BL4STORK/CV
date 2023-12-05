@@ -36,7 +36,7 @@
 
 #Icône{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 24px;   
 }
 
@@ -150,4 +150,5 @@
     border-color: yellow;
     transform:rotate(360deg);
     transition: 2s;
+    
 }
